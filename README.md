@@ -38,7 +38,4 @@ Se reportaron errores en Jira con foco en la experiencia de usuario y estabilida
 1. **Fallo en Límite Superior:** La API permitía agregar más de 30 productos bajo ciertas condiciones de duplicidad.
 2. **Mensajes de Error Inconsistentes:** El sistema devolvía errores de servidor (500) en lugar de errores de validación de cliente (400) al usar IDs inexistentes.
 
-## 🚀 Cómo revisar este proyecto
-1. **Checklist:** Puedes ver el diseño de mis pruebas en este [Enlace a mi Google Sheets] (Configurado como Comentador).
-2. **Colección de Postman:** Importa el archivo `UrbanGrocers_API_Tests.json` incluido en este repositorio.
-3. **Variables:** Asegúrate de configurar la variable `baseUrl` en tu entorno de Postman con la URL activa del servidor.
+1. **Checklist:** Puedes ver el diseño de mis pruebas en este [Enlace a mi Google Sheets](https://docs.google.com/spreadsheets/d/1JUekx-CZTdexZaJoorA8a1EpIOP-66CZ/edit?usp=sharing&ouid=111900472603636147925&rtpof=true&sd=true) (Configurado como Comentador).
