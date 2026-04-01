@@ -1,0 +1,305 @@
+{
+	"info": {
+		"_postman_id": "53c78a43-43f1-4158-b56f-bc8fcfbac03b",
+		"name": "Urban Grocers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Agregar productos a la kit",
+			"id": "b8510ed6-d80b-45d8-9e71-64348baaed7f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/2/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar 30 productos a la kit",
+			"id": "4cafa87e-ceba-4661-a050-d750e0d8ad01",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 30\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/{{id}}/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar 29 productos a la kit",
+			"id": "f7c874e4-0a0a-49c3-a3b9-ce70970afc1c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 29\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/{{id}}/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar 31 productos a la kit",
+			"id": "ec8a309e-3671-4cb7-a25f-0e227c5379c2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 31\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/{{id}}/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar productos a la kit vacio",
+			"id": "16b33e36-c372-4d83-847c-e11963046b02",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits//products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar productos a la kit con texto",
+			"id": "e7ca5628-9004-462b-ae72-c659db6ede9f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/2/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar productos a la kit con numero decimal",
+			"id": "891c6fd4-1472-48b6-ad23-919e5034a93e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/2.1/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar productos a la kit numero inexistente",
+			"id": "e5d31c9f-1421-47ae-9730-fb03e33426c2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/2/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar productos a la kit en negativo",
+			"id": "e6643d8d-b983-4bad-96ee-a059e0182802",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/-2/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar productos a la kit en fraccion",
+			"id": "96006aee-dc83-4967-8c33-71ef75d46d2e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/api/v1/kits/½/products"
+			},
+			"response": []
+		},
+		{
+			"name": "Comprobar que se realiza el calculo de tarifa (hostDeliveryCost)",
+			"id": "fa74cf75-ada8-4240-b7af-310d8d4c2834",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n\"deliveryTime\": 9,\r\n\"productsCount\": 10,\r\n\"productsWeight\": 11\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/order-and-go/v1/delivery"
+			},
+			"response": []
+		},
+		{
+			"name": "Comprobar costes de envio y disponibilidad del servicio",
+			"id": "402460cb-ef03-463c-9bc4-44c2beccf16b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n\"deliveryTime\": 9,\r\n\"productsCount\": 10,\r\n\"productsWeight\": 11\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{server_url}}/order-and-go/v1/delivery"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "1b2beb13-99a0-4b27-acbf-547c89ef2caf",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "74db87d9-57b4-46d2-8772-c1d10f01a3ae",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "id",
+			"value": ""
+		}
+	]
+}
